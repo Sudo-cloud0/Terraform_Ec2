@@ -42,8 +42,8 @@ resource "aws_instance" "ec2-one" {
 1. Clone this repository to your local machine.
 
     ```sh
-    git clone <repository_url>
-    cd <repository_directory>
+    mkdir <dir name>
+    cd <dir name>
     ```
 
 2. Export your AWS credentials.
@@ -90,4 +90,3 @@ Again, you will be prompted to confirm the action. Type `yes` to proceed.
 - [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/index.html)
 ```
 
-Replace `<repository_url>` and `<repository_directory>` with the actual URL and directory of your repository.
