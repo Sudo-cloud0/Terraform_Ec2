@@ -1,5 +1,3 @@
-Sure, here is the complete `README.md` file content:
-
 ```markdown
 # Terraform Script to Create EC2 Instance in AWS
 
