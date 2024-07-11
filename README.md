@@ -19,6 +19,9 @@ The Terraform script provided here will create a `t2.micro` EC2 instance in the 
 
 ### `main.tf`
 
+
+```sh
+
 ```hcl
 provider "aws" {
   region = "ap-south-1"
@@ -34,6 +37,8 @@ resource "aws_instance" "ec2-one" {
   }
 }
 ```
+```
+
 
 ## Usage
 
