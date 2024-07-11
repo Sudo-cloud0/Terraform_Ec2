@@ -17,25 +17,25 @@ Ensure you have your AWS access key and secret access key. You can generate thes
 
 The Terraform script provided here will create a `t2.micro` EC2 instance in the `ap-south-1` region with a specified Amazon Machine Image (AMI).
 
+```
+
 ### `main.tf`
-
-
 ```sh
 
-```hcl
-provider "aws" {
-  region = "ap-south-1"
-}
-
-resource "aws_instance" "ec2-one" {
-  ami               = "ami-0ad21ae1d0696ad58"
-  instance_type     = "t2.micro"
-  associate_public_ip_address = true
-
-  tags = {
-    Name = "Test instance terraform"
+  provider "aws" {
+    region = "ap-south-1"
   }
-}
+
+  resource "aws_instance" "ec2-one" {
+    ami               = "ami-0ad21ae1d0696ad58"
+    instance_type     = "t2.micro"
+    associate_public_ip_address = true
+
+    tags = {
+      Name = "Test instance terraform"
+    }
+  }
+```
 ```
 ```
 
